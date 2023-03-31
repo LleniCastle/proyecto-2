@@ -1,0 +1,67 @@
+.header {
+    height: 10em;
+    padding: 3em;
+    font-size: 2em;
+    background-image: url("../img/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 3px 1px rgb(21, 146, 10);
+}
+
+.header h1 {
+    margin: 0px;
+    color: white;
+    text-shadow: 4px 4px 5px rgb(204, 8, 90); 
+}
+
+.body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.products {
+    width: 60%;
+    margin: auto;
+    color: rgb(148, 202, 134);
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+    text-align: justify;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px rgb(122, 202, 102);
+    transition: 2s;
+}
+
+.products img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.products h3 {
+    color:darkgreen;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 0em 30em 0em 30em;
+    background-image: url("../img/footer.jpg");
+    background-size: 100%;
+    margin: 0%;
+}
+
+.footer p {
+    margin: 0%;
+}
+
+.footer a {
+    cursor: pointer;
+}
